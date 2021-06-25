@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+header div.menu{
+    display: inline;
+    float: right;
+}
+
+header div.item-menu{
+    display: inline;
+}
+
+header div.item-menu p{
+    display: inline;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    text-align: center;
+    vertical-align: middle;
+}
+
+section div{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+section div.google-img{
+    padding-top: 300px;
+    margin-bottom: 10px;
+}
+
+section div.search input[type=text]{
+    animation: 1s;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 40px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid rgb(118, 118, 118);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+section div.search input[type=text]:hover{
+    background-color:rgba(240, 240, 240, 0.15);
+}
+
+section div.search input[type=submit]{
+    animation: 1s;
+    width: calc(50% - 500);
+    padding: 10px 16px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+
+section div.search input[type=submit]:hover{
+    background-color: #eaeaea;
+}
+
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    color: rgba(0,0,0,.54);
+}
+
+footer div.language{
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+}
+
+footer div.info{
+    padding: 15px 20px;
+    display: inline;
+    float: left;
+    width: 70%;
+}
+
+footer div.info div.item-info{
+    display: inline;
+    cursor: pointer;
+    padding: 15px;
+}
+
+footer div.info div.item-info p{
+    display: inline;
+    width: 100%;
+    font-size: 14px;
+    padding: 15px;
+}
+
+footer div.privacy{
+    padding: 15px 20px;
+    display: inline;
+    float: right;
+    width: 30%;
+}
+
+footer div.privacy div.item-privacy{
+    cursor: pointer;
+    display: inline;
+}
+
+footer div.privacy div.item-privacy p{
+    display: inline;
+    font-size: 14px;
+    padding: 15px;
+}
